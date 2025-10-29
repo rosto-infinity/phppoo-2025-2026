@@ -120,7 +120,7 @@ class CompteBancaire
 
 echo "=== Démonstration Constructeur / Destructeur ===" . PHP_EOL;
 
-// Personne : création atomique grâce au constructeur
+// -Personne : création atomique grâce au constructeur
 $eva = new Personne("Eva", 34, "designer");
 echo $eva->sePresenter() . PHP_EOL;
 $eva->feterAnniversaire();
