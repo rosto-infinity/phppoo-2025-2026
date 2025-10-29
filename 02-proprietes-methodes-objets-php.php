@@ -37,5 +37,5 @@ echo $diane->sePresenter() . PHP_EOL;
 $diane->feterAnniversaire();
 echo "Après un anniversaire : " . $diane->sePresenter() . PHP_EOL;
 
-// afficher l'objet complet (facultatif)
+// --afficher l'objet complet (facultatif)
 print_r($diane);
