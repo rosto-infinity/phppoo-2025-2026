@@ -40,7 +40,7 @@ class Personne
 }
 
 /**
- * Classe Logger : gestion simple d'un fichier de log.
+ * -Classe Logger : gestion simple d'un fichier de log.
  * Le destructeur ferme le fichier proprement. Ne pas lever d'exception dans __destruct().
  */
 class Logger
