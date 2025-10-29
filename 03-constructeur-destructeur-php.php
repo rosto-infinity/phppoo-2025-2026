@@ -135,7 +135,7 @@ try {
     echo "Erreur logger : " . $e->getMessage() . PHP_EOL;
 }
 
-// CompteBancaire : opérations puis affichage via __destruct()
+// -CompteBancaire : opérations puis affichage via __destruct()
 try {
     $compte = new CompteBancaire("Owen", 1500.0);
     $compte->debiter(200.0);
