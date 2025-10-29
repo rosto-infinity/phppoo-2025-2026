@@ -14,7 +14,7 @@ declare(strict_types=1);
  */
 
 /**
- * Classe Personne : utilisation de la promotion de propriétés et validation simple.
+ * -Classe Personne : utilisation de la promotion de propriétés et validation simple.
  */
 class Personne
 {
