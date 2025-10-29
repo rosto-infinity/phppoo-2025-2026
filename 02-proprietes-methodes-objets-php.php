@@ -21,7 +21,7 @@ class Personne
         $this->age++;
     }
 }
-
+// -2.3 Instancier et utiliser un objet
 $diane = new Personne();
 $diane->prenom = "Diane";
 $diane->age = 28;
