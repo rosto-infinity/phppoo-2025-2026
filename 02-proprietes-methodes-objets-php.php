@@ -33,7 +33,7 @@ $diane->metier = "développeuse";
 //- afficher la présentation
 echo $diane->sePresenter() . PHP_EOL;
 
-// -fêter un anniversaire et afficher le nouvel état
+// --fêter un anniversaire et afficher le nouvel état
 $diane->feterAnniversaire();
 echo "Après un anniversaire : " . $diane->sePresenter() . PHP_EOL;
 
