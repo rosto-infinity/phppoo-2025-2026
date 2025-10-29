@@ -15,7 +15,7 @@ class Personne
         return "Bonjour, je m'appelle {$this->prenom}, j'ai {$this->age} ans.";
     }
 
-    // Méthode qui modifie l'état de l'objet
+    // -Méthode qui modifie l'état de l'objet
     public function feterAnniversaire(): void
     {
         $this->age++;
