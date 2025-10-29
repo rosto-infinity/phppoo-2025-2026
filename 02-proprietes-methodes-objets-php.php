@@ -3,6 +3,8 @@
 // Qu’est-ce qu’une propriété ?
 //--Une propriété (ou attribut) est une variable déclarée à l’intérieur d’une classe.
 //-Elle représente une caractéristique ou un état de l’objet.
+
+//-2.1 Définir une classe avec des propriétés
 class Personne
 {
     public string $prenom;
