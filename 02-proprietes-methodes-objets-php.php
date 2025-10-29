@@ -7,11 +7,12 @@
 //-2.1 Définir une classe avec des propriétés
 class Personne
 {
+  
     public string $prenom;
     public int $age;
     public string $metier;
 
-    // -Méthode qui retourne une chaîne
+    // --Méthode qui retourne une chaîne
     public function sePresenter(): string
     {
         return "Bonjour, je m'appelle {$this->prenom}, j'ai {$this->age} ans.";
@@ -29,3 +30,12 @@ $diane->prenom = "Diane";
 $diane->age = 28;
 $diane->metier = "développeuse";
 
+// afficher la présentation
+echo $diane->sePresenter() . PHP_EOL;
+
+// fêter un anniversaire et afficher le nouvel état
+$diane->feterAnniversaire();
+echo "Après un anniversaire : " . $diane->sePresenter() . PHP_EOL;
+
+// afficher l'objet complet (facultatif)
+print_r($diane);
