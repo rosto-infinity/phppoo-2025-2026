@@ -109,7 +109,7 @@ class CompteBancaire
 
     public function __destruct()
     {
-        // Message simple à la fin du script / quand l'objet est détruit
+        // -Message simple à la fin du script / quand l'objet est détruit
         echo "Compte de {$this->titulaire} fermé. Solde final : " . number_format($this->solde, 2) . " €" . PHP_EOL;
     }
 }
