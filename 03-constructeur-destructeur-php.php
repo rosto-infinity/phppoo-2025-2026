@@ -74,7 +74,7 @@ class Logger
 }
 
 /**
- * Classe CompteBancaire : constructeur avec validation, méthodes de crédit/débit,
+ * -Classe CompteBancaire : constructeur avec validation, méthodes de crédit/débit,
  * et un message affiché à la destruction de l'objet.
  */
 class CompteBancaire
