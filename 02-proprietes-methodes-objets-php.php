@@ -27,7 +27,7 @@ class Personne
     }
 }
 // -2.3 Instancier et utiliser un objet
-$diane = new Personne();
+$diane = new Personne("Marie", 25, "ingénieure");
 $diane->prenom = "Diane";
 $diane->age = 28;
 $diane->metier = "développeuse";
