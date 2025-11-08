@@ -21,7 +21,7 @@ class Personne {
         $this->nom = $nom;
     }
     
-    // Getter pour $age
+    // --Getter pour $age
     public function getAge(): int {
         return $this->age;
     }
