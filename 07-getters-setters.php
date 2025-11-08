@@ -26,7 +26,7 @@ class Personne {
         return $this->age;
     }
     
-    // Setter pour $age avec validation
+    // -Setter pour la var $age avec validation
     public function setAge(int $age): void {
         if ($age < 0 || $age > 150) {
             throw new InvalidArgumentException("Âge invalide");
