@@ -1,5 +1,7 @@
 <?php
 declare(strict_types=1);
+
+require_once "database.php";
 echo "Attributs avec types (PHP 8.4) </br>  \n"; 
 
 echo "<a href='index.php'> Accueil</a>  </br>  </br>\n ";
